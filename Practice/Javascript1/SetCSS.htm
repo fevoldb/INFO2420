@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>JavaScript Practice 1- SetCSS</title>
+
+<script type="text/javascript">
+<!-- Beginning of JavaScript -
+
+	function changecolor(code) {
+
+		var myHeading=document.getElementById('Top');
+
+    		document.body.style.backgroundColor=code;
+
+	
+		if(code == 'blue'){
+			myHeading.Style.color ='white';
+			myHeading.Style.textDecorartion='none';
+			myHeading.Style.textAlign='Right';
+			myHeading.Style.fontsize=='30px';
+		}
+		else if(code == "white"){
+			myHeading.Style.color ="black";
+			myHeading.Style.textDecorartion="underline";
+			myHeading.Style.textAlign="center";
+			myHeading.Style.fontsize=="24px";
+		}
+		else if(code == "red"){
+			myHeading.Style.color ="black";
+			myHeading.Style.textDecorartion ="underline";
+			myHeading.Style.textAlign ="center";
+			myHeading.Style.fontsize =="24px";
+		}
+		else if(code =="yellow"){
+			myHeading.Style.color ="red";
+			myHeading.Style.textDecorartion ="underline";
+			myHeading.Style.textAlign ="left";
+			myHeading.Style.fontsize =="24px";
+		}
+		else{
+			myHeading.Style.color ="pink";
+			myHeading.Style.textDecorartion ="none";
+			myHeading.Style.textAlign ="left";
+			myHeading.Style.fontsize =="44px";
+		};
+	}
+	
+
+
+// - End of JavaScript - -->
+</script>
+
+</head>
+
+<body onload="changecolor('red');">
+
+	<h1 id="Top">Changing CSS Properties in JavaScript</h1>
+
+
+	<form>
+		
+		<input type="button" name="Button1" value="RED" onclick="changecolor('red')" />
+
+		<input type="button" name="Button2" value="YELLOW" onClick="changecolor('yellow')" />
+
+		<input type="button" name="Button3" value="BLUE" onclick="changecolor('blue')" />
+
+		<input type="button" name="Button4" value="WHITE" onclick="changecolor('white')" />
+
+	</form>
+
+</body>
+</html>
