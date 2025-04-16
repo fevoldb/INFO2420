@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body   {
+		background-color:#620A72;
+		font-family:Arial, Helvetica, sans-seriff;
+		font-size:medium;
+		color: #000000;
+	
+}
+
+Header {
+		width: 900px;
+		height: 200px;
+		background-color:#8A319A;
+		text-align: center;
+		padding-top: 10px;
+		margin: auto;
+		color: #000000;
+		
+}
+
+section {
+		width: 900px;
+		background-image: url("images/2colback.jpg");
+		background-repeat: repeat-y;
+		overflow: hidden;
+		margin: auto;
+		color: #000000;
+	
+}
+
+Nav {
+	float: left;
+	width: 250px;
+	
+}
+
+article {
+	float: left;
+	width: 650px;
+	text-align: center;
+	
+}
+
+Footer{
+	text-align: center;
+	width: 900px;
+	height: 100px;
+	background-color: #8A319A;
+	margin: auto;
+	color: #000000;
+	font-family: Sans-Seriff;
+	font-size: 30px;
+	font-style: bold;
+}
+
+.logoleft{
+	float: left;
+	padding-top: 0px;
+	padding-left: 15px;
+}
+
+nav a {
+	border: 6px inset #494747;
+	background-color: #8A319A;
+	line-height: 250%;
+	font-weight: bold;
+	font-size: 25px;
+	color: #75C618;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	font-family: Sans-Seriff;
+	
+}
+
+nav a:hover {
+	color: #90D440;
+	border: 2px outset #494747;
+}
+
+
+		
+	
+	
