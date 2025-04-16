@@ -11,10 +11,10 @@ if (document.images) {
 
 
 		var imgArray = new Array(
-			'Image1Lg.jpg',
-			'Image2Lg.jpg',
-			'Image3Lg.jpg',
-			'Image4Lg.jpg'
+			'image1lg.jpg',
+			'image2lg.jpg',
+			'image3lg.jpg',
+			'image4lg.jpg'
 			
 
 		);
@@ -28,7 +28,7 @@ if (document.images) {
 			
 		);
 			
-		var imgPath = "images/Fullsize/";
+		var imgPath = "images/fullsize/";
 		
 		function swapImage(imgID) {
 
